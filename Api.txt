@@ -1,0 +1,27 @@
+1api
+https://us-central1-doctime-465c7.cloudfunctions.net/sendAuthenticationOTPToPhoneNumber
+post
+{"data":{"flag":"https://doctime-core-ap-southeast-1.s3.ap-southeast-1.amazonaws.com/images/country-flags/flag-800.png","code":"88","contact_no":"[+number]","country_calling_code":"88","headers":{"PlatForm":"Web"}}}
+
+2api
+https://api.redx.com.bd/v1/user/signup
+post
+{"phoneNumber":"[+number]","service":"redx","name":"1609258769"}
+
+3api
+https://fundesh.com.bd/api/auth/generateOTP?service_key=
+post
+{"msisdn":"[+number]"}
+
+4api
+https://apix.rabbitholebd.com/appv2/login/requestOTP
+post
+{"mobile":"+88[+number]"}
+
+5api
+https://app.eonbazar.com/api/auth/login
+post
+{"method":"otp","mobile":"[+number]"}
+
+
+enjoy 🍑
